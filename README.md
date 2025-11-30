@@ -195,13 +195,6 @@ Identificação do Sucesso (Request #2): A requisição de número 2 destacou-se
 
 
 >
-
-Para este teste, a aplicação web foi configurada com o Security Level definido como Medium.
-
-<img width="1365" height="767" alt="10-Bforcelevel" src="https://github.com/user-attachments/assets/5e8fee9c-74a2-4dca-b7eb-407da343beb7" />
-
-
->
 ## Conclusão e Agradecimentos
 Este projeto foi muito além de uma simulação de Brute-Force. Ele representou um estudo abrangente sobre diversos vetores de ataque e defesa, executado em um ambiente ético, controlado e autorizado.
 

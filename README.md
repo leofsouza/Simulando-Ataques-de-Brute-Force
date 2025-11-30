@@ -13,30 +13,26 @@ Esta atividade alinha-se à tática de Descoberta (Discovery) do framework MITRE
 
 
 ## Especificações de Rede do Alvo
-<img width="1365" height="767" alt="1" src="https://github.com/user-attachments/assets/76a2e532-201d-499a-b720-706e8fcd76eb" />
+<img width="856" height="431" alt="image" src="https://github.com/user-attachments/assets/8e196706-3841-4ce7-9f48-ec38627f6fee" />
 
 ## Validação de Conectividade (Protocolo ICMP)
-<img width="1365" height="767" alt="2" src="https://github.com/user-attachments/assets/9d56fb32-c858-4af4-815d-3073aa2e188d" />
+<img width="1018" height="638" alt="image" src="https://github.com/user-attachments/assets/4f5061e4-5dcc-43de-9fb8-be767f7e8fe3" />
 
 ## Criação de Wordlists para Autenticação
 - A mesma lista será utilizada para realizar o ataque de força-bruta na aplicação Web do DVWA
 
-
-<img width="1365" height="767" alt="4" src="https://github.com/user-attachments/assets/086862ad-521a-47c5-97b5-6beaf8391ff1" />
+<img width="663" height="680" alt="image" src="https://github.com/user-attachments/assets/48643e92-c817-4b8b-8299-f29250664302" />
 
 ## Foi realizado um ataque de força bruta (Brute-Force) contra o serviço FTP (Porta 21) utilizando a ferramenta Ncrack para testar a resistência da autenticação.
 Resultado da Execução: A ferramenta obteve êxito ao identificar credenciais válidas (username/password).
 
 Análise de Impacto (Credential Reuse): A obtenção destas credenciais expõe o sistema ao risco de Reutilização de Senhas (Credential Stuffing). Um atacante poderia utilizar essas mesmas informações para tentar autenticação em outros serviços críticos (como SSH, Telnet ou Painéis Web) para ampliar seu acesso à infraestrutura.
 
-
-<img width="1365" height="767" alt="5" src="https://github.com/user-attachments/assets/61dd7651-988e-4108-88a1-3384e3277760" />
-
+<img width="946" height="639" alt="image" src="https://github.com/user-attachments/assets/0cfc4472-db57-4842-b482-f19cf526ec88" />
 
 ## Validação de Credential Stuffing no SSH
 Após a execução da técnica de Credential Stuffing, foi confirmado o reaproveitamento de credenciais. O mesmo par de usuário e senha permitiu a autenticação bem-sucedida no serviço SSH (Secure Shell) através da porta padrão 22.
-<img width="1365" height="727" alt="7" src="https://github.com/user-attachments/assets/6e22cfa3-b8ce-40fe-ab94-7d76f3a43296" />
-
+<img width="1201" height="612" alt="image" src="https://github.com/user-attachments/assets/f5ae0465-698d-42b1-8f6e-8a79bb468437" />
 
 ## Durante a fase de enumeração, a porta 80 (HTTP) foi identificada com o status Open (Aberta), indicando a presença de um serviço web ativo.
 Inspeção de Código-Fonte via CLI (Curl).
